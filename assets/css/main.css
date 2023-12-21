@@ -149,4 +149,13 @@ img {
     .button_add_task {
         margin: 0 auto;
     }
+
+    .task p {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    img {
+        opacity: 1;
+    }
 }
