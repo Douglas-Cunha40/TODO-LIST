@@ -66,4 +66,10 @@ function recarregarTarefas() {
 
 recarregarTarefas()
 
+function keyEnter() {
+    input.addEventListener("keydown", (e) => {
+        e.keyCode === 13 && adicionarNovaTarefa()
+    })
+}
 
+keyEnter()
